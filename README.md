@@ -1,1 +1,1 @@
-Modern HTML Email Template MarkUp
+# Modern Responsive HTML Email Template MarkUp

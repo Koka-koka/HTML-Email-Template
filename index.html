@@ -29,6 +29,7 @@
 			width: 100%;
 			table-layout: fixed;
 			background-color: #ccc;
+			padding-top: 20px;
 			padding-bottom: 60px;
 		}
 
@@ -52,6 +53,27 @@
 			display: inline-block;
 			vertical-align: middle;
 			text-align: center;
+		}
+
+		.three-columns {
+			text-align: center;
+		}
+
+		.three-columns .column {
+			max-width: 180px;
+			display: inline-block;
+			vertical-align: middle;
+			text-align: center;
+		}
+
+		.three-columns .padding {
+			padding: 15px;
+		}
+
+		.three-columns .content {
+			font-size: 15px;
+			line-height: 25px;
+			padding: 0 5px;
 		}
 	</style>
 </head>
@@ -99,10 +121,83 @@
 			</tr>
 
 			<!-- BANNER IMAGE -->
-
+			<tr>
+				<td>
+					<a href="#"><img src="img/banner.jpg" alt="banner" width="100%" style="max-width: 600px;"></a>
+				</td>
+			</tr>
 
 			<!-- THREE COLUMN SECTION -->
-
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td class="three-columns">
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="img/email.png" alt="email" width="130"
+																style="max-width: 130px;"></a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<p style="font-weight: bold; font-size: 17px;">E-commerce</p>
+														<p>Responsive HTML Email Template development</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="img/settings.png" alt="email" width="130"
+																style="max-width: 130px;"></a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<p style="font-weight: bold; font-size: 17px;">Web Design</p>
+														<p>Responsive HTML Email Template development</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="img/home.png" alt="email" width="130"
+																style="max-width: 130px;"></a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<p style="font-weight: bold; font-size: 17px;">HTM Email</p>
+														<p>Responsive HTML Email Template development</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
 
 			<!-- TWO COLUMN SECTION -->
 
